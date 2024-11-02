@@ -1,0 +1,52 @@
+metadata:
+  version: "1.0"
+  description: "CP11.5 UI-level translation settings and preferences"
+  created_at: "2024-09-18T12:00:00Z" 
+  last_updated: "2024-09-18T12:00:00Z"
+
+translation_backends:
+  preferred: "MarianMT"
+  fallback: "FallbackTranslator"
+  cache_enabled: true
+  cache_max_size: 1000
+
+ui_translation:
+  auto_translate: true
+  translate_threshold: 0.0  # Always translate if language mismatch
+  preserve_citations: true
+  preserve_numbers: true
+  preserve_code_blocks: true
+  
+  # When to apply UI translation
+  conditions:
+    english_preference_nepali_content: true
+    nepali_preference_english_content: true
+    bilingual_mode_disabled: true  # Don't translate in bilingual mode
+    
+token_preservation:
+  citation_pattern: "\\[\\d+\\]"
+  number_pattern: "\\b\\d+(?:\\.\\d+)?\\b"
+  code_block_pattern: "```[\\s\\S]*?```"
+  
+romanization:
+  enable_transliteration: true
+  romanization_confidence: 0.7
+  
+  # Roman to Devanagari mappings (subset)
+  mappings:
+    "namaste": "नमस्ते"
+    "nepal": "नेपाल" 
+    "sarkar": "सरकार"
+    "swasthya": "स्वास्थ्य"
+    
+nepali_input:
+  virtual_keyboard: true
+  ime_support: true
+  unicode_normalization: "NFC"
+  font_family: "Noto Sans Devanagari"
+  
+display_settings:
+  show_translation_badge: true
+  show_original_text_toggle: true
+  bilingual_layout: "side_by_side"  # or "stacked"
+  sentence_alignment: true

@@ -1,0 +1,34 @@
+# Dockerfile for documentation service
+FROM python:3.11-slim
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create app directory
+WORKDIR /app
+
+# Install MkDocs and plugins
+RUN pip install --upgrade pip && \
+    pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin
+
+# Copy documentation files
+COPY mkdocs.yml ./
+COPY docs/ ./docs/
+
+# Create non-root user
+RUN useradd --create-home --shell /bin/bash docs && \
+    chown -R docs:docs /app
+USER docs
+
+# Expose documentation port
+EXPOSE 8080
+
+# Default command
+CMD ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8080"]

@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      - docs
+
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile.docs
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docs:/docs
+      - ./mkdocs.yml:/mkdocs.yml
+
+networks:
+  default:
+    name: nepaligov-rag-bench

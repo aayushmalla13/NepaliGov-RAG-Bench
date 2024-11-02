@@ -1,0 +1,43 @@
+# Setup scripts and documentation
+setup_git_history*.sh
+DEVELOPMENT_TIMELINE.md
+
+# Temporary files created by Git history generation
+dev_*.py
+temp_feature_*.py
+commit_*.py
+refactored_*.py
+temp_delete_*.py
+{n_conf*.*
+development_log_*.txt
+dev_log_*.txt
+temp_log.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Build directories
+build/
+dist/
+*.egg-info/

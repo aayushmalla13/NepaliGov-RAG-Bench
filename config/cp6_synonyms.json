@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "CP6 query expansion synonyms and related terms",
+    "created_at": "2024-09-18T12:00:00Z",
+    "last_updated": "2024-09-18T12:00:00Z"
+  },
+  "synonyms": {
+    "en": {
+      "government": ["administration", "state", "authority", "governance"],
+      "health": ["medical", "healthcare", "wellness", "medicine"],
+      "policy": ["regulation", "rule", "guideline", "directive"],
+      "covid": ["coronavirus", "covid-19", "pandemic", "sars-cov-2"],
+      "constitution": ["fundamental law", "basic law", "charter"],
+      "ministry": ["department", "secretariat", "office"],
+      "nepal": ["nepali", "nepalese"]
+    },
+    "ne": {
+      "सरकार": ["प्रशासन", "राज्य", "अधिकारी"],
+      "स्वास्थ्य": ["चिकित्सा", "आरोग्य", "औषधि"],
+      "नीति": ["नियम", "विधि", "निर्देशन"],
+      "कोभिड": ["कोरोना", "महामारी"],
+      "संविधान": ["आधारभूत कानून", "मौलिक कानून"],
+      "मन्त्रालय": ["विभाग", "कार्यालय"]
+    }
+  },
+  "expansion_weights": {
+    "original_term": 1.0,
+    "direct_synonym": 0.8,
+    "related_term": 0.6
+  },
+  "max_expansions_per_term": 3
+}

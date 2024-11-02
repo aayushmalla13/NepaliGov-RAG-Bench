@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "version": "1.0", 
+    "description": "CP9 bilingual semantic mappings and language-specific processing rules",
+    "created_at": "2024-09-18T12:00:00Z",
+    "last_updated": "2024-09-18T12:00:00Z"
+  },
+  "semantic_mappings": {
+    "en_to_ne": {
+      "government": "सरकार",
+      "health": "स्वास्थ्य", 
+      "policy": "नीति",
+      "constitution": "संविधान",
+      "ministry": "मन्त्रालय",
+      "covid": "कोभिड",
+      "pandemic": "महामारी",
+      "hospital": "अस्पताल",
+      "medicine": "औषधि",
+      "doctor": "डाक्टर"
+    },
+    "ne_to_en": {
+      "सरकार": "government",
+      "स्वास्थ्य": "health",
+      "नीति": "policy", 
+      "संविधान": "constitution",
+      "मन्त्रालय": "ministry",
+      "कोभिड": "covid",
+      "महामारी": "pandemic",
+      "अस्पताल": "hospital",
+      "औषधि": "medicine",
+      "डाक्टर": "doctor"
+    }
+  },
+  "language_processing": {
+    "devanagari_threshold": 0.25,
+    "romanization_confidence": 0.7,
+    "mixed_language_penalty": 0.9
+  },
+  "bilingual_confidence": {
+    "high_threshold": 0.8,
+    "medium_threshold": 0.5,
+    "low_threshold": 0.2
+  },
+  "cross_language_boost": {
+    "same_language": 0.15,
+    "cross_language_penalty": -0.05,
+    "authority_boost": 0.08
+  }
+}

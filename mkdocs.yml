@@ -1,0 +1,33 @@
+site_name: NepaliGov-RAG-Bench
+site_description: A comprehensive RAG system for Nepali government documents
+site_url: https://aayushmalla13.github.io/NepaliGov-RAG-Bench
+repo_url: https://github.com/aayushmalla13/NepaliGov-RAG-Bench
+repo_name: aayushmalla13/NepaliGov-RAG-Bench
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - Installation: installation.md
+  - API Documentation: api/
+  - Development: development/
+  - Files: files/
+
+plugins:
+  - search
+  - mkdocstrings
