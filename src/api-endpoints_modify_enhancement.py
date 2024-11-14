@@ -1,6 +1,6 @@
 # api-endpoints Modify Enhancement
-# Improve api-endpoints documentation
-# Enhanced by aayushmalla13 on 2024-11-07
+# Update api-endpoints configuration
+# Enhanced by aayushmalla13 on 2024-11-14
 
 import logging
 from typing import Dict, Any, Optional
