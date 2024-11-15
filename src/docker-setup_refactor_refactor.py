@@ -1,6 +1,6 @@
 # docker-setup Refactor Refactor
-# Optimize docker-setup memory usage
-# Refactored by aayushmalla13 on 2024-11-07
+# Improve docker-setup documentation
+# Refactored by aayushmalla13 on 2024-11-15
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
