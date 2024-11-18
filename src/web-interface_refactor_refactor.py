@@ -1,6 +1,6 @@
 # web-interface Refactor Refactor
-# Refactor web-interface data models
-# Refactored by babin411 on 2024-11-15
+# Develop web-interface infrastructure
+# Refactored by babin411 on 2024-11-18
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
