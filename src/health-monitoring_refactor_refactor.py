@@ -1,6 +1,6 @@
 # health-monitoring Refactor Refactor
-# Improve health-monitoring monitoring
-# Refactored by babin411 on 2024-11-16
+# Fix health-monitoring validation logic
+# Refactored by babin411 on 2024-11-20
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
