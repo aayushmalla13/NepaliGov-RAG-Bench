@@ -1,6 +1,6 @@
 # qa-citation Modify Enhancement
-# Add qa-citation error recovery
-# Enhanced by shijalsharmapoudel on 2024-11-18
+# Improve qa-citation user experience
+# Enhanced by shijalsharmapoudel on 2024-11-21
 
 import logging
 from typing import Dict, Any, Optional
