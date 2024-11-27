@@ -1,6 +1,6 @@
 # api-endpoints Refactor Refactor
-# Optimize api-endpoints memory usage
-# Refactored by aayushmalla13 on 2024-11-19
+# Improve api-endpoints documentation
+# Refactored by aayushmalla13 on 2024-11-27
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
