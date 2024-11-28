@@ -1,6 +1,6 @@
 # language-processing Refactor Refactor
-# Enhance language-processing performance
-# Refactored by aayushmalla13 on 2024-11-21
+# Add language-processing core functionality
+# Refactored by aayushmalla13 on 2024-11-28
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
