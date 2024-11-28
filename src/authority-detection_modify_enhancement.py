@@ -1,6 +1,6 @@
 # authority-detection Modify Enhancement
-# Add authority-detection core functionality
-# Enhanced by aayushmalla13 on 2024-11-20
+# Add authority-detection comprehensive tests
+# Enhanced by aayushmalla13 on 2024-11-28
 
 import logging
 from typing import Dict, Any, Optional
