@@ -1,6 +1,6 @@
 # api-endpoints Modify Enhancement
-# Fix api-endpoints error handling
-# Enhanced by aayushmalla13 on 2024-11-22
+# Refactor api-endpoints architecture
+# Enhanced by aayushmalla13 on 2024-11-29
 
 import logging
 from typing import Dict, Any, Optional
