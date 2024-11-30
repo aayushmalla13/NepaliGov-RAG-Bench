@@ -1,6 +1,6 @@
 # ci-cd Refactor Refactor
-# Add ci-cd error recovery
-# Refactored by shijalsharmapoudel on 2024-11-27
+# Improve ci-cd user experience
+# Refactored by shijalsharmapoudel on 2024-11-30
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
