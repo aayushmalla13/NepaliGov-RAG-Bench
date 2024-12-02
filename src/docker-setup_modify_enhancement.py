@@ -1,6 +1,6 @@
 # docker-setup Modify Enhancement
-# Enhance docker-setup performance
-# Enhanced by aayushmalla13 on 2024-11-25
+# Add docker-setup core functionality
+# Enhanced by aayushmalla13 on 2024-12-02
 
 import logging
 from typing import Dict, Any, Optional
