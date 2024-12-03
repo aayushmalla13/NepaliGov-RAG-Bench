@@ -1,6 +1,6 @@
 # documentation Modify Enhancement
-# Update documentation dependencies
-# Enhanced by shijalsharmapoudel on 2024-11-30
+# Refactor documentation components
+# Enhanced by shijalsharmapoudel on 2024-12-03
 
 import logging
 from typing import Dict, Any, Optional
