@@ -1,6 +1,6 @@
 # translation-services Modify Enhancement
-# Update translation-services configuration
-# Enhanced by aayushmalla13 on 2024-11-26
+# Fix translation-services error handling
+# Enhanced by aayushmalla13 on 2024-12-04
 
 import logging
 from typing import Dict, Any, Optional
