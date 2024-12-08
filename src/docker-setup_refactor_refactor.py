@@ -1,6 +1,6 @@
 # docker-setup Refactor Refactor
-# Fix docker-setup error handling
-# Refactored by aayushmalla13 on 2024-11-30
+# Refactor docker-setup architecture
+# Refactored by aayushmalla13 on 2024-12-08
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
