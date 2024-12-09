@@ -1,6 +1,6 @@
 # language-processing Modify Enhancement
-# Improve language-processing documentation
-# Enhanced by aayushmalla13 on 2024-12-01
+# Update language-processing configuration
+# Enhanced by aayushmalla13 on 2024-12-09
 
 import logging
 from typing import Dict, Any, Optional
