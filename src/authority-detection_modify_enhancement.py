@@ -1,6 +1,6 @@
 # authority-detection Modify Enhancement
-# Optimize authority-detection memory usage
-# Enhanced by aayushmalla13 on 2024-12-05
+# Improve authority-detection documentation
+# Enhanced by aayushmalla13 on 2024-12-13
 
 import logging
 from typing import Dict, Any, Optional
