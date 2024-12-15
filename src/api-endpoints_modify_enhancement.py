@@ -1,6 +1,6 @@
 # api-endpoints Modify Enhancement
-# Enhance api-endpoints performance
-# Enhanced by aayushmalla13 on 2024-12-07
+# Add api-endpoints core functionality
+# Enhanced by aayushmalla13 on 2024-12-15
 
 import logging
 from typing import Dict, Any, Optional
