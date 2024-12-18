@@ -1,6 +1,6 @@
 # docker-setup Modify Enhancement
-# Add docker-setup comprehensive tests
-# Enhanced by aayushmalla13 on 2024-12-10
+# Optimize docker-setup memory usage
+# Enhanced by aayushmalla13 on 2024-12-18
 
 import logging
 from typing import Dict, Any, Optional
