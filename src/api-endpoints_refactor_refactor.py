@@ -1,6 +1,6 @@
 # api-endpoints Refactor Refactor
-# Fix api-endpoints error handling
-# Refactored by aayushmalla13 on 2024-12-12
+# Refactor api-endpoints architecture
+# Refactored by aayushmalla13 on 2024-12-20
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
