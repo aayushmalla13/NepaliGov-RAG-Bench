@@ -1,6 +1,6 @@
 # qa-citation Modify Enhancement
-# Improve qa-citation user experience
-# Enhanced by shijalsharmapoudel on 2024-12-18
+# Fix qa-citation edge cases
+# Enhanced by shijalsharmapoudel on 2024-12-22
 
 import logging
 from typing import Dict, Any, Optional
