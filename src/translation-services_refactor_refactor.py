@@ -1,6 +1,6 @@
 # translation-services Refactor Refactor
-# Update translation-services configuration
-# Refactored by aayushmalla13 on 2024-12-17
+# Fix translation-services error handling
+# Refactored by aayushmalla13 on 2024-12-24
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
