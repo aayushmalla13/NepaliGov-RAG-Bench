@@ -1,6 +1,6 @@
 # authority-detection Refactor Refactor
-# Add authority-detection comprehensive tests
-# Refactored by aayushmalla13 on 2024-12-18
+# Optimize authority-detection memory usage
+# Refactored by aayushmalla13 on 2024-12-26
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
