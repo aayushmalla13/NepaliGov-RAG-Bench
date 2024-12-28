@@ -1,6 +1,6 @@
 # authority-detection Modify Enhancement
-# Update authority-detection configuration
-# Enhanced by aayushmalla13 on 2024-12-21
+# Fix authority-detection error handling
+# Enhanced by aayushmalla13 on 2024-12-28
 
 import logging
 from typing import Dict, Any, Optional
