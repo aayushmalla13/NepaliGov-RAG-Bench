@@ -1,6 +1,6 @@
 # language-processing Refactor Refactor
-# Improve language-processing documentation
-# Refactored by aayushmalla13 on 2024-12-21
+# Update language-processing configuration
+# Refactored by aayushmalla13 on 2024-12-29
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
