@@ -1,6 +1,6 @@
 # docker-setup Modify Enhancement
-# Improve docker-setup documentation
-# Enhanced by aayushmalla13 on 2024-12-25
+# Update docker-setup configuration
+# Enhanced by aayushmalla13 on 2025-01-02
 
 import logging
 from typing import Dict, Any, Optional
