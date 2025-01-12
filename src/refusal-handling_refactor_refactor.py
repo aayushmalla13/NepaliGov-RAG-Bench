@@ -1,6 +1,6 @@
 # refusal-handling Refactor Refactor
-# Refactor refusal-handling components
-# Refactored by shijalsharmapoudel on 2025-01-09
+# Implement refusal-handling core features
+# Refactored by shijalsharmapoudel on 2025-01-12
 
 from abc import ABC, abstractmethod
 from typing import Protocol, TypeVar, Generic
